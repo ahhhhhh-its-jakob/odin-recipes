@@ -1,0 +1,39 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+img{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2,
+.main-heading,
+.recipe-heading,
+.description-text{
+    text-align: center;
+}
+
+.recipe-list > li{
+    color:blueviolet;
+}
+
+.main-heading{
+    color: seagreen;
+}
+
+.recipe-heading{
+    color:crimson;
+}
+
+h2{
+    color:darkblue;
+}
+
+h3{
+    color:steelblue;
+}
