@@ -1,3 +1,7 @@
+*{
+   /* border: 1px solid red; */
+}
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: blanchedalmond;
@@ -20,10 +24,23 @@ h2,
 
 .recipe-list > li{
     color:blueviolet;
+    display: block;
+    background-color: azure;
+    height: auto;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+ul{
+    padding: 0;
 }
 
 .main-heading{
     color: seagreen;
+    text-align: center;
 }
 
 .recipe-heading{
